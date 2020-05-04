@@ -1,0 +1,24 @@
+<html>
+        <body style="color:red">
+            {#Esto es un comentario :D#}}
+
+            {%comment%}
+                Comentario de varias lineas :D
+            {%endcomment%}
+
+            <h1>Hello {{nombre.upper}} {{apellido | lower}}!</h1>
+            <br />
+            <p>
+                {% if temas %}
+                    {% for x in temas %}
+                        <p>
+                            {{x |first|lower}} &nbsp; 
+                            {{x}}
+                        </p>
+                    {% endfor%}
+                {% else %}
+                    <p>No hay cursos</p>                
+                {% endif %}
+            </p>
+        </body>
+    </html>

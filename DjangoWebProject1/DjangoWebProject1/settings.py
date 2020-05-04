@@ -58,7 +58,7 @@ ROOT_URLCONF = 'DjangoWebProject1.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["C:/Users/farenas/source/repos/DjangoWebProject1/DjangoWebProject1/DjangoWebProject1/Plantilla/"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
